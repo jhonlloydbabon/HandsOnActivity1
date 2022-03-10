@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>02 Hands-on Activity 1 | Babon Jhon Lloyd N.</title>
+</head>
+<body>
+
+    <!-- 1. Registration -->
+    <div class="email-registration">
+        <div class="form-wrapper">
+            <h1>Email Registration Form</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, unde. Alias laborum incidunt neque fugiat!</p>
+
+
+            <!-- Personal Information -->
+            <div class="cover">
+                <div class="desc">
+                    <h2>Personal Information</h2>
+                </div>
+                <div class="form">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" placeholder="ex. Jhon Lloyd">
+                        <label for="middlename">Middle Name</label>
+                        <input type="text" name="middlename" placeholder="ex. Nabual">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" placeholder="ex. Babon">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" placeholder="ex. Babon">
+                        <label for="dob">Date Of Birth</label>
+                        <input type="date" name="dob">
+                        <label for="gender">Gender</label>
+                        <select name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                </div>
+            </div>
+
+            <!-- Account Information -->
+            <div class="cover">
+                <div class="desc">
+                    <h2>Account Information</h2>
+                </div>
+                <div class="form">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" placeholder="ex. Jlbabon12@example.com">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="sample">
+                        <label for="confirmed-password">Confirm Password</label>
+                        <input type="password" name="confirmed-password" placeholder="sample">
+                </div>
+            </div>
+
+            <!-- Agreement -->
+            <div class="agreement">
+                <label for="first"> <input type="checkbox" name="first" >  Lorem Ipsum is simply dummy text of the printing and typesetting industry.</label>
+                <label for="first"><input type="checkbox" name="first" > I Read and Accept the <span style="text-decoration: underline; color: rgb(255, 34, 34);">Terms and Condition</span></label>
+                <input type="button" value="Submit">
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- 2. CLASS SCHEDULE -->
+    <div class="class-sched">
+        <h1>Class Schedule</h1>
+        <p>My official schedule this second semester</p>
+        <div class="table-cover">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>08:30 - 10:00</th>
+                        <th>10:00 - 11:30</th>
+                        <th>01:00 - 3:00</th>
+                        <th>03:00 - 04:00</th>
+                        <th>04:00 - 05:00</th>
+                        <th>05:00 - 07:00</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td colspan="3" ></td>
+                        <td class="active" colspan="2" style="--clr: rgb(17, 243, 104);" >Information Management(Lec)</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td colspan="2"></td>
+                        <td class="active" style="--clr: rgb(255, 0, 242);">
+                            Fundamental <br> Web Programming(Lec)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td class="active" style="--clr: rgb(255, 115, 0);">Information <br> Technology(Lab)</td>
+                        <td class="active" style="--clr: rgb(255, 0, 34);">
+                            Fundamental <br> Web Programming(Lab)
+                        </td>
+                        <td class="active" style="--clr: rgb(0, 255, 170);">
+                            Physical Education 4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td colspan="2"></td>
+                        <td colspan="2" class="active" style="--clr: rgb(56, 59, 255);">Philippine Popular Culture</td>
+                        <td colspan="2" class="active" style="--clr: rgb(6, 135, 255);">Ethics</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td colspan="6" rowspan="2" class="active" style="--clr:brown;">No Class</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
